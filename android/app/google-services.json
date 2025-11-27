@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616518233341",
+    "project_id": "re-dish",
+    "storage_bucket": "re-dish.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616518233341:android:82c0efac8e918f21dda294",
+        "android_client_info": {
+          "package_name": "com.example.coo_list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDIWRvpWXNClCRnJHQtt-qeQ_tu1e199Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
