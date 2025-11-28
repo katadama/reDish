@@ -194,7 +194,3 @@ lib/
 - [Supabase dokumentáció](https://supabase.com/docs)
 - [OpenRouter dokumentáció](https://openrouter.ai/docs)
 - [BLoC minta útmutató](https://bloclibrary.dev/)
-
----
-
-Ha bármi kérdésed van, nyugodtan nyiss egy issue-t! 😊
