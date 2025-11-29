@@ -54,12 +54,15 @@ OPENROUTER_URL=https://openrouter.ai/api/v1/chat/completions
 OPENROUTER_API_KEY=your_openrouter_api_key
 ```
 
-#### Supabase kulcsok beszerzése
+#### Supabase setup/kulcsok beszerzése
 
 1. Menj a [supabase.com](https://supabase.com)-ra és hozz létre egy projektet (ingyenes)
-2. A projektben menj a **Settings** → **API** menüpontra
-3. Másold ki a **Project URL**-t → Ez lesz a `SUPABASE_URL`
-4. Másold ki az **anon/public key**-t → Ez lesz a `SUPABASE_ANON_KEY`
+2. A projectben menj az **sql editor** menüpontra majd másold be a db_sql.md file tartalmát a vonal alatt.
+3. Majd menj a projectben a **TAble Editor** menüpontra és kattints a **list_items** táblára, utána jobb felső sarokban kattínts és állítsd be a **Enable Realtime** funciót
+4. Következő lépés, menj a **Project Settings** → **Data API** menüpontra
+5. Másold ki a **Project URL**-t → Ez lesz a `SUPABASE_URL`
+6. Következő lépés, menj a **Project Settings** → **API Keys** → **Legacy anon,service_role API keys**  menüpontra
+7. Másold ki az **anon/public key**-t → Ez lesz a `SUPABASE_ANON_KEY`
 
 #### OpenRouter API kulcs
 
