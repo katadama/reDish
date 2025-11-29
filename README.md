@@ -21,7 +21,7 @@ Mielőtt nekiállsz, ezeket telepítsd le:
 - **Dart SDK**: Flutter-rel együtt jön, nem kell külön
 - **Git**: A kód letöltéséhez
 - **IDE**: Android Studio, VS Code vagy IntelliJ IDEA Flutter bővítményekkel
-- **Platform specifikus cuccok** (attól függ, mire akarod futtatni):
+- **Platform specifikus dolgok** (attól függ, mire akarod futtatni, böngészőben is működik, csak ajánlott telefonos nézetben):
   - **Android**: Android Studio Android SDK-val
   - **iOS**: Xcode (csak macOS-on)
   - **Web**: Chrome (ha weben akarod futtatni)
@@ -67,10 +67,10 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 2. Menj a **Keys** fülre
 3. Hozz létre egy új API kulcsot
 4. Másold ki → Ez lesz a `OPENROUTER_API_KEY`
-5. Az URL általában: `https://openrouter.ai/api/v1/chat/completions` (ezt már beírtam fent)
+5. Az URL általában: `https://openrouter.ai/api/v1/chat/completions`
 
 **Fontos**: 
-- Soha ne commitold a `.env` fájlt! (már benne van a `.gitignore`-ban, szóval véletlenül sem fog menni)
+- Soha ne commitold a `.env` fájlt! (már benne van a `.gitignore`-ban)
 - Tartsd titokban az API kulcsaidat, ne oszd meg sehol
 
 ### 4. Ellenőrizd a Flutter beállításokat
