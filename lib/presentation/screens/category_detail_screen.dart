@@ -110,7 +110,6 @@ class _CategoryProductsListState extends State<_CategoryProductsList> {
   final Map<String, DateTime> _swipedItems = {};
   final Map<String, String> _productIdToProfileId = {};
   bool _isInitialized = false;
-  String? _currentProfileId;
 
   static const Duration _animationDuration = Duration(milliseconds: 300);
   static const Duration _swipedItemExpiry = Duration(seconds: 5);
@@ -120,18 +119,8 @@ class _CategoryProductsListState extends State<_CategoryProductsList> {
     super.initState();
   }
 
-  void _updateCurrentProfileId() {
-    final profileBloc = context.read<ProfileBloc>();
-    final profileState = profileBloc.state;
-    if (profileState is ProfileSelected) {
-      _currentProfileId = profileState.profile.id;
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
-    _updateCurrentProfileId();
-
     return BlocConsumer<CategoryProductsBloc, CategoryProductsState>(
       listener: (context, state) {
         if (state is CategoryProductsLoaded) {
@@ -349,17 +338,7 @@ class _CategoryProductsListState extends State<_CategoryProductsList> {
             _removeItemWithoutAnimation(id);
             _swipedItems.remove(id);
           } else {
-            final profileId =
-                productIdToProfileId[id] ?? _productIdToProfileId[id];
-            final shouldAnimate = profileId != null &&
-                profileId != _currentProfileId &&
-                _currentProfileId != null;
-
-            if (shouldAnimate) {
-              _removeItem(id);
-            } else {
-              _removeItemWithoutAnimation(id);
-            }
+            _removeItem(id);
             _productIdToProfileId.remove(id);
           }
         }
@@ -380,17 +359,7 @@ class _CategoryProductsListState extends State<_CategoryProductsList> {
           _removeItemWithoutAnimation(id);
           _swipedItems.remove(id);
         } else {
-          final profileId =
-              productIdToProfileId[id] ?? _productIdToProfileId[id];
-          final shouldAnimate = profileId != null &&
-              profileId != _currentProfileId &&
-              _currentProfileId != null;
-
-          if (shouldAnimate) {
-            _removeItem(id);
-          } else {
-            _removeItemWithoutAnimation(id);
-          }
+          _removeItem(id);
           _productIdToProfileId.remove(id);
         }
       }
