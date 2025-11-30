@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/models/product_model.dart';
 import 'package:coo_list/utils/date_utils.dart';
 import 'package:coo_list/utils/profile_colors.dart';

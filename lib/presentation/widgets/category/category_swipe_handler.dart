@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:swipeable_tile/swipeable_tile.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/logic/category_products/category_products_bloc.dart';
 import 'package:coo_list/logic/category_products/category_products_event.dart';
 import 'package:coo_list/logic/profile/profile_bloc.dart';

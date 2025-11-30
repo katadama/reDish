@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/models/product_model.dart';
 import 'package:coo_list/data/repositories/category_repository.dart';
 import 'package:coo_list/logic/product/product_details_event.dart';

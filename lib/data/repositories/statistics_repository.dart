@@ -1,5 +1,5 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/config/supabase_config.dart';
 
 class StatisticsRepository {

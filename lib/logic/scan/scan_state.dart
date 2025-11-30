@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/models/product_model.dart';
 import 'dart:io';
 

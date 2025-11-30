@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/repositories/category_repository.dart';
 import 'package:coo_list/logic/category/category_event.dart';
 import 'package:coo_list/logic/category/category_state.dart';

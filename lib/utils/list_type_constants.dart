@@ -5,4 +5,3 @@ class ListType {
   static const int home = 2;
   static const int bin = 3;
 }
-

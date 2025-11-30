@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/logic/bin/bin_bloc.dart';
 import 'package:coo_list/logic/bin/bin_event.dart';
 import 'package:coo_list/logic/profile/profile_bloc.dart';

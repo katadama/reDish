@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/presentation/screens/category_grid_screen.dart';
 
 class ShoppingListScreen extends StatelessWidget {

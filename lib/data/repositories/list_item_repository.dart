@@ -1,4 +1,4 @@
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/models/product_model.dart';
 import 'package:coo_list/data/models/category_model.dart';
 import 'package:coo_list/data/models/list_item_model.dart';

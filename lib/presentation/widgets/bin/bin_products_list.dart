@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:swipeable_tile/swipeable_tile.dart';
 import 'package:coo_list/config/app_router.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/data/models/product_model.dart';
 import 'package:coo_list/logic/bin/bin_bloc.dart';
 import 'package:coo_list/logic/bin/bin_event.dart';

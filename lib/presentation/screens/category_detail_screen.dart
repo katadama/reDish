@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:coo_list/config/app_router.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/presentation/widgets/custom_context_menu.dart';
 import 'package:coo_list/data/models/category_model.dart';
 import 'package:coo_list/data/models/product_model.dart';

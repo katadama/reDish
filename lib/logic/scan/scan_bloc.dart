@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:camera/camera.dart';
-import 'package:coo_list/config/list_type_constants.dart';
+import 'package:coo_list/utils/list_type_constants.dart';
 import 'package:coo_list/logic/scan/scan_event.dart';
 import 'package:coo_list/logic/scan/scan_state.dart';
 import 'package:coo_list/services/openrouter_service.dart';
